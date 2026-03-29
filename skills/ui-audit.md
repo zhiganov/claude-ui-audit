@@ -30,6 +30,16 @@ Find all components, pages, and dialogs in the feature area. List them with file
 
 **If no Figma MCP:** Skip this step. The code is the source of truth.
 
+### Step 1c: Load design system (if interface-design is installed)
+
+**If `.interface-design/system.md` exists** (from [interface-design](https://github.com/Dammyjay93/interface-design)):
+
+Read the file and extract the project's established design tokens: spacing grid, color tokens, depth strategy, surface elevation, component patterns (button heights, card padding, border radius). Use these as the **source of truth** for pattern checks in later steps instead of generic rules.
+
+For example, if `system.md` says `Spacing base: 8px, Scale: 4, 8, 12, 16, 24, 32` then flag any component using `p-[14px]` or `gap-[22px]` as a design system violation, not just a mobile issue.
+
+**If no `system.md`:** Use generic best practices (44px touch targets, responsive breakpoints, etc.) and note in the output that the project could benefit from adopting `interface-design` to prevent design drift.
+
 ### Step 2: Component library check
 
 Check the project's component library for patterns and best practices.
