@@ -32,6 +32,7 @@ Examples:
 
 The skill works standalone but is enhanced by:
 - **shadcn MCP** — queries component patterns and examples directly
+- **Figma MCP** — pulls design tokens, compares implementation against designs, finds unimplemented mobile variants and design drift
 - **jtbd-knowledge MCP** — queries JTBD frameworks (Universal Job Map, Four Forces) for product context
 
 ## Output

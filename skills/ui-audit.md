@@ -15,6 +15,21 @@ Audit a UI feature area for pattern consistency, mobile UX, and component best p
 
 Find all components, pages, and dialogs in the feature area. List them with file paths.
 
+### Step 1b: Check Figma designs (if Figma MCP is available)
+
+**If Figma MCP is available** (`mcp__figma__*` tools):
+
+1. **Find the design file** — search for frames/pages matching the feature area name
+2. **Pull design tokens** — colors, spacing, typography, border radius from the design system. Use these as the source of truth instead of hardcoded values in later steps.
+3. **Compare against implementation** — for each component found in Step 1:
+   - Does a corresponding Figma component exist?
+   - Do spacing, colors, typography match between design and code?
+   - Are there mobile variants in Figma that weren't implemented?
+   - Are there designed components that were never built?
+4. **Note drift** — list where implementation diverges from design. This is separate from pattern/mobile issues — it's about design intent vs reality.
+
+**If no Figma MCP:** Skip this step. The code is the source of truth.
+
 ### Step 2: Component library check
 
 Check the project's component library for patterns and best practices.
