@@ -49,6 +49,8 @@ Potential integrations with existing community skills:
 - **React/Next.js best practices** — React component composition, state management, rendering optimization, Server Components patterns
   - [vercel-react-best-practices](https://mcpservers.org/claude-skills/vercel/react-best-practices) (176K installs) — covers React and Next.js patterns
 - **Automated accessibility scanning** — replace the manual accessibility check with axe-core / Lighthouse scanner results. No proven skill exists yet — candidates: [claude-a11y-skill](https://github.com/airowe/claude-a11y-skill), [skill-a11y-audit](https://github.com/snapsynapse/skill-a11y-audit)
+- **Living Structure evaluation** — evaluate whether the UI has spatial cohesion and compositional quality using Christopher Alexander's 15 Properties (Strong Centers, Boundaries, Gradients, Levels of Scale, etc.). A different lens from technical patterns — it's about whether the interface feels *alive*
+  - [claude-living-structure](https://github.com/zhiganov/claude-living-structure) — audit software against Alexander's 15 Properties of Living Structure
 - **Shaping for deep UX issues** — when the audit finds problems that need solution design, not just pattern fixes (e.g., "the dashboard doesn't support the Monitor job stage"), use shaping methodology before jumping to implementation
   - [shaping-skills](https://github.com/rjs/shaping-skills) — Ryan Singer's Shape Up methodology: problem definition, breadboarding, fat marker sketches
 - **Formal UX heuristics** — Nielsen heuristics, WCAG, Don Norman principles evaluation. No proven skill exists yet — candidate: [mastepanoski/claude-skills](https://github.com/mastepanoski/claude-skills)
