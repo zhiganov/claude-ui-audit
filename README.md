@@ -51,5 +51,7 @@ Potential integrations with existing community skills:
   - [claude-code-frontend-dev](https://github.com/hemangjoshi37a/claude-code-frontend-dev) — multimodal vision (Claude sees the rendered UI)
 - **Storybook integration** — for projects using Storybook: component-level visual regression, accessibility remediation, story coverage gaps
   - [storybook-assistant](https://github.com/flight505/storybook-assistant)
+- **React/Next.js best practices** — React component composition, state management, rendering optimization, Server Components patterns
+  - [vercel-react-best-practices](https://mcpservers.org/claude-skills/vercel/react-best-practices) — 176K installs, covers React and Next.js patterns
 - **Formal UX heuristics** — Nielsen heuristics, WCAG, and Don Norman principles evaluation alongside the pattern and JTBD checks
   - [mastepanoski/claude-skills](https://github.com/mastepanoski/claude-skills)
