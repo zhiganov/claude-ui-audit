@@ -43,6 +43,8 @@ Findings table with severity, component, issue, pattern reference, and file:line
 
 Potential integrations with existing community skills:
 
+- **Design system consistency** — enforce spacing, colors, depth, and surface decisions across sessions. If `.interface-design/system.md` exists, use it as source of truth for the audit's pattern checks
+  - [interface-design](https://github.com/Dammyjay93/interface-design) (4.3K stars) — craft, memory, and enforcement for consistent UI
 - **Visual regression / screenshot testing** — render components at mobile/desktop viewports and visually verify layout issues instead of inferring from CSS classes
   - [playwright-skill](https://github.com/lackeyjb/playwright-skill) (2.2K stars) — browser automation for screenshot comparison
 - **React/Next.js best practices** — React component composition, state management, rendering optimization, Server Components patterns
