@@ -43,7 +43,13 @@ Findings table with severity, component, issue, pattern reference, and file:line
 
 Potential integrations with existing community skills:
 
-- **Automated accessibility scanning** — integrate [claude-a11y-skill](https://github.com/airowe/claude-a11y-skill) (axe-core + jsx-a11y) or [skill-a11y-audit](https://github.com/snapsynapse/skill-a11y-audit) (WCAG 2.1 AA + Lighthouse) to replace the manual accessibility check with real scanner results
-- **Visual regression / screenshot testing** — integrate [playwright-skill](https://github.com/lackeyjb/playwright-skill) or [claude-code-frontend-dev](https://github.com/hemangjoshi37a/claude-code-frontend-dev) (multimodal vision) to render components at mobile/desktop viewports and visually verify layout issues instead of inferring from CSS classes
-- **Storybook integration** — integrate [storybook-assistant](https://github.com/flight505/storybook-assistant) for projects using Storybook — component-level visual regression, accessibility remediation, story coverage gaps
-- **Formal UX heuristics** — integrate [mastepanoski/claude-skills](https://github.com/mastepanoski/claude-skills) for Nielsen heuristics, WCAG, and Don Norman principles evaluation alongside the pattern and JTBD checks
+- **Automated accessibility scanning** — replace the manual accessibility check with real scanner results
+  - [claude-a11y-skill](https://github.com/airowe/claude-a11y-skill) — axe-core + jsx-a11y
+  - [skill-a11y-audit](https://github.com/snapsynapse/skill-a11y-audit) — WCAG 2.1 AA + Lighthouse
+- **Visual regression / screenshot testing** — render components at mobile/desktop viewports and visually verify layout issues instead of inferring from CSS classes
+  - [playwright-skill](https://github.com/lackeyjb/playwright-skill) — browser automation for screenshot comparison
+  - [claude-code-frontend-dev](https://github.com/hemangjoshi37a/claude-code-frontend-dev) — multimodal vision (Claude sees the rendered UI)
+- **Storybook integration** — for projects using Storybook: component-level visual regression, accessibility remediation, story coverage gaps
+  - [storybook-assistant](https://github.com/flight505/storybook-assistant)
+- **Formal UX heuristics** — Nielsen heuristics, WCAG, and Don Norman principles evaluation alongside the pattern and JTBD checks
+  - [mastepanoski/claude-skills](https://github.com/mastepanoski/claude-skills)
